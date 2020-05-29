@@ -34,8 +34,7 @@
 
         <ul class="auth-nav list">
           <li class="item">
-            <a href="/" class="link" rel="">
-              <img src="./images/почта.svg" alt="Почта" class="link-img" />
+            <a href="/" class="link trew" rel="">
               info@devstudio.com
             </a>
           </li>
@@ -53,9 +52,7 @@
     <!-- Герой -->
     <main>
       <section class="main">
-        <div class="overlay">
-
-        </div>
+        <div class="overlay"></div>
         <!-- <img src="./images/heroy.jpg" alt="фото" width="1600" /> -->
         <div class="container">
           <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
@@ -67,13 +64,17 @@
       <section class="rules">
         <div class="container rules-container">
           <ul class="feature-list list">
-            <li class="item">
-              <a href="/" class="link">
-                <img
-                  src="./images/антена.svg"
-                  class="antena"
-                  alt="Внимание к деталям"
-              /></a>
+            <li class="item items icon-delivery">
+              <svg class="an">
+                <use
+                  href="images/sprayt.svg#antena"
+                  width="66"
+                  height="70"
+                  x="102"
+                  y="25"
+                  class="an-antena"
+                ></use>
+              </svg>
               <h2 class="title">Внимание к деталям</h2>
               <p class="text">
                 Идейные соображения, а также начало повседневной работы по
@@ -81,13 +82,16 @@
               </p>
             </li>
 
-            <li class="item">
-              <a href="/" class="link">
-                <img
-                  src="./images/punct.svg"
-                  class="antena"
-                  alt="Внимание к деталям"
-              /></a>
+            <li class="item items icon-mobile">
+              <svg class="an">
+                <use
+                  href="images/sprayt.svg#clock"
+                  width="67"
+                  height="70"
+                  x="102"
+                  y="25"
+                ></use>
+              </svg>
 
               <h2 class="title">Пунктуальность</h2>
               <p class="text">
@@ -96,13 +100,16 @@
               </p>
             </li>
 
-            <li class="item">
-              <a href="/" class="link">
-                <img
-                  src="./images/комп.svg"
-                  class="antena"
-                  alt="Внимание к деталям"
-              /></a>
+            <li class="item items icon-code">
+              <svg class="an">
+                <use
+                  href="images/sprayt.svg#comp"
+                  width="70"
+                  height="54"
+                  x="100"
+                  y="33"
+                ></use>
+              </svg>
               <h2 class="title">Планирование</h2>
               <p class="text">
                 Равным образом консультация с широким активом в значительной
@@ -110,13 +117,16 @@
               </p>
             </li>
 
-            <li class="item">
-              <a href="/" class="link">
-                <img
-                  src="./images/космонавт.svg"
-                  class="antena"
-                  alt="Внимание к деталям"
-              /></a>
+            <li class="item items icon-astron">
+              <svg class="an">
+                <use
+                  href="images/sprayt.svg#astronaut"
+                  width="55"
+                  height="61"
+                  x="100"
+                  y="33"
+                ></use>
+              </svg>
               <h2 class="title">Современные технологии</h2>
               <p class="text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -132,12 +142,7 @@
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="list">
             <li class="foto">
-              <img
-                src="./images/desktop.jpg"
-                class="im"
-                alt=""
-                width="380"
-              />
+              <img src="./images/desktop.jpg" class="im" alt="" width="380" />
               <div class="container-list blok">
                 <h3 class="works">Десктопные приложения</h3>
               </div>
@@ -183,23 +188,111 @@
               />
               <h3 class="name">John Smith</h3>
               <p class="position">Product Designer</p>
-              <ul class="list">
-                <li><a href="" aria-label="Facebook Link"></a></li>
-                <li><a href="" aria-label="Instagram Link"></a></li>
-                <li><a href="" aria-label="Twitter Link"></a></li>
-                <li><a href="" aria-label="Linkedin Link"></a></li>
-              </ul>
+              <div class="">
+                <ul class="list social-networks link">
+                  <li class="networks-inst">
+                    <a href="" aria-label="Facebook Link" class="social-link">
+                      <svg class="social-icon">
+                        <use
+                          href="images/sprayt.svg#instagram"
+                          width="20"
+                          height="20"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="networks-tvit">
+                    <a href="" aria-label="Instagram Link">
+                      <svg class="social-icon">
+                        <use
+                          href="images/sprayt.svg#twitter"
+                          width="20"
+                          height="16"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="networks-f">
+                    <a href="" aria-label="Twitter Link">
+                      <svg class="social-icon">
+                        <use
+                          href="images/sprayt.svg#facebook"
+                          width="10"
+                          height="20"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="networks-link">
+                    <a href="" aria-label="Linkedin Link">
+                      <svg class="social-icon">
+                        <use
+                          href="images/sprayt.svg#linkedin"
+                          width="20"
+                          height="16"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
 
             <li class="foto">
               <img src="./images/Marta.jpg" alt="фото Marta" width="280" />
               <h3 class="name">Marta Stewart</h3>
               <p class="position">Frontend Developer</p>
-              <ul class="list">
-                <li><a href="" aria-label="Facebook Link"></a></li>
-                <li><a href="" aria-label="Instagram Link"></a></li>
-                <li><a href="" aria-label="Twitter Link"></a></li>
-                <li><a href="" aria-label="Linkedin Link"></a></li>
+              <ul class="list social-networks link">
+                <li class="networks-inst">
+                  <a href="" aria-label="Facebook Link" class="social-link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#instagram"
+                        width="20"
+                        height="20"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="networks-tvit">
+                  <a href="" aria-label="Instagram Link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#twitter"
+                        width="20"
+                        height="16"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="networks-f">
+                  <a href="" aria-label="Twitter Link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#facebook"
+                        width="10"
+                        height="20"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="networks-link">
+                  <a href="" aria-label="Linkedin Link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#linkedin"
+                        width="20"
+                        height="16"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
             </li>
 
@@ -207,11 +300,54 @@
               <img src="./images/robert.jpg" alt="фото Robert" width="280" />
               <h3 class="name">Robert Jakis</h3>
               <p class="position">Marketing</p>
-              <ul class="list">
-                <li><a href="" aria-label="Facebook Link"></a></li>
-                <li><a href="" aria-label="Instagram Link"></a></li>
-                <li><a href="" aria-label="Twitter Link"></a></li>
-                <li><a href="" aria-label="Linkedin Link"></a></li>
+              <ul class="list social-networks link">
+                <li class="networks-inst">
+                  <a href="" aria-label="Facebook Link" class="social-link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#instagram"
+                        width="20"
+                        height="20"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="networks-tvit">
+                  <a href="" aria-label="Instagram Link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#twitter"
+                        width="20"
+                        height="16"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="networks-f">
+                  <a href="" aria-label="Twitter Link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#facebook"
+                        width="10"
+                        height="20"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="networks-link">
+                  <a href="" aria-label="Linkedin Link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#linkedin"
+                        width="20"
+                        height="16"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
             </li>
 
@@ -219,11 +355,54 @@
               <img src="./images/Martin.jpg" alt="фото Martin" width="280" />
               <h3 class="name">Martin Doe</h3>
               <p class="position">UI Designer</p>
-              <ul class="list">
-                <li><a href="" aria-label="Facebook Link"></a></li>
-                <li><a href="" aria-label="Instagram Link"></a></li>
-                <li><a href="" aria-label="Twitter Link"></a></li>
-                <li><a href="" aria-label="Linkedin Link"></a></li>
+              <ul class="list social-networks link">
+                <li class="networks-inst">
+                  <a href="" aria-label="Facebook Link" class="social-link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#instagram"
+                        width="20"
+                        height="20"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="networks-tvit">
+                  <a href="" aria-label="Instagram Link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#twitter"
+                        width="20"
+                        height="16"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="networks-f">
+                  <a href="" aria-label="Twitter Link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#facebook"
+                        width="10"
+                        height="20"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="networks-link">
+                  <a href="" aria-label="Linkedin Link">
+                    <svg class="social-icon">
+                      <use
+                        href="images/sprayt.svg#linkedin"
+                        width="20"
+                        height="16"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -278,26 +457,55 @@
         <div class="join">
           <p class="join-paragraph">присоединяйтесь</p>
           <ul class="social-networks">
-            <li class="net">
-              <a href aria-label="сылка на инстаграм" class="networks">
-                <img src="./images/instagram.svg" alt=""
-              /></a>
-            </li>
-            <li class="net">
-              <a href aria-label="сылка на твитер" class="networks">
-                <img src="./images/tviter.svg" alt=""
-              /></a>
-            </li>
-            <li class="net">
-              <a href aria-label="сылка на фейсбук" class="networks">
-                <img src="./images/facebook.svg" alt=""
-              /></a>
-            </li>
-            <li class="net">
-              <a href aria-label="сылка на линкедин" class="networks">
-                <img src="./images/linkedin.svg" alt=""
-              /></a>
-            </li>
+            <ul class="list social-networks link">
+              <li class="networks-inst">
+                <a href="" aria-label="Facebook Link" class="social-link">
+                  <svg class="social-icon">
+                    <use
+                      href="images/sprayt.svg#instagram"
+                      width="20"
+                      height="20"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="networks-tvit">
+                <a href="" aria-label="Instagram Link">
+                  <svg class="social-icon">
+                    <use
+                      href="images/sprayt.svg#twitter"
+                      width="20"
+                      height="16"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="networks-f">
+                <a href="" aria-label="Twitter Link">
+                  <svg class="social-icon">
+                    <use
+                      href="images/sprayt.svg#facebook"
+                      width="10"
+                      height="20"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="networks-link">
+                <a href="" aria-label="Linkedin Link">
+                  <svg class="social-icon">
+                    <use
+                      href="images/sprayt.svg#linkedin"
+                      width="20"
+                      height="16"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </ul>
         </div>
         <div class="subscription">

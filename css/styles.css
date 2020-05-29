@@ -117,7 +117,9 @@ body {
   font-size: 14px;
   line-height: 1.2;
   color: var(--primary-text-color);
+  display: flex;
 }
+
 .auth-nav.list .link:focus,
 .auth-nav.list .link:hover {
   color: var(--accent-color);
@@ -185,18 +187,17 @@ body {
   padding: 0;
   text-align: center;
 }
-.overlay{
+.overlay {
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), rgba(47, 48, 58, 0.8);
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    rgba(47, 48, 58, 0.8);
   background-image: url("../images/heroy.jpg");
   background-size: cover;
   background-color: black;
-  
-
-} 
+}
 
 /* section */
 .section .section-title {
@@ -210,10 +211,23 @@ body {
 
 /* правила */
 
-.item .antena:hover,
-.item .antena:focus {
+.items:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+}
+.feature-list.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.an {
+  display: block;
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: black;
+  width: 270px;
+  height: 120px;
 }
 
 .item .antena {
@@ -312,8 +326,45 @@ body {
 }
 .position {
   margin-top: 0;
-  margin-bottom: 84px;
+  margin-bottom: 16px;
   text-align: center;
+}
+
+.social-link {
+  display: block;
+}
+
+.networks-tvit {
+  margin-left: 34px;
+}
+.networks-link,
+.networks-f {
+  margin-left: 39px;
+}
+
+.social-icon {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: 44px;
+  margin-right: 44px;
+  width: 206px;
+  height: 44px;
+  margin-bottom: 24px;
+}
+
+.social-link {
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
 .list .foto {
@@ -411,13 +462,6 @@ footer {
   text-transform: uppercase;
 }
 
-.social-networks {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-  margin: 0 0;
-}
-
 .social-networks .net + .net {
   margin-left: 20px;
 }
@@ -504,6 +548,7 @@ footer {
   padding-bottom: 6px;
   padding-top: 6px;
 
+  color: var(--title-text-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
