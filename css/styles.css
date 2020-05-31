@@ -211,10 +211,10 @@ body {
 
 /* правила */
 
-.items:focus {
+/* .items:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-}
+} */
 .feature-list.list {
   margin: 0;
   padding: 0;
@@ -403,6 +403,20 @@ body {
 }
 
 /* Постояные клиенты */
+
+.logos .anantena {
+  fill: #afb1b8;
+}
+
+.logos {
+  display: block;
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: #afb1b8;
+  width: 170px;
+  height: 90px;
+}
+
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
