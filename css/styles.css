@@ -372,8 +372,10 @@ body {
   border: 1px solid #eeeeee;
   background: url(team-img-2.jpg);
   border-radius: 4px 4px 4px 4px;
-  background: #ffffff;
+  width: 270px;
+
   border-radius: 4px;
+  border: 1px solid #afb1b8;
 }
 .section-foto {
   border-radius: 4px 4px 0px 0px;
@@ -404,17 +406,37 @@ body {
 
 /* Постояные клиенты */
 
+.feature-list .foto {
+  width: 170px;
+}
+
 .logos .anantena {
   fill: #afb1b8;
 }
 
+.foto-link {
+  display: flex;
+  align-items: center;
+}
+.foto-link:focus > .logos,
+.foto-link:hover > .logos {
+  background-color: var(--primary-white-color);
+  border: 1px solid #2196f3;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.foto-link .logos:focus > .color,
+.foto-link .logos:hover > .color {
+  fill: var(--accent-color);
+}
+
 .logos {
   display: block;
-  background: #f5f4fa;
   border-radius: 4px;
   color: #afb1b8;
   width: 170px;
   height: 90px;
+  background: #e5e5e5;
 }
 
 .clients {
@@ -675,3 +697,10 @@ footer {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
+
+/* .foto-link:focus > .logos {
+  background-color: var(--primary-white-color);
+  border: 1px solid #2196f3;
+  box-sizing: border-box;
+  border-radius: 4px;
+} */
