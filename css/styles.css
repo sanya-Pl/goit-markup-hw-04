@@ -368,35 +368,54 @@ body {
   margin-left: 39px;
 } */
 
+.networ {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0;
+  margin-right: 10px;
+}
+.networ:hover {
+  fill: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
 .social-icon {
   margin: 0;
   padding: 0;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   fill: #afb1b8;
-  border-radius: 50%;
 }
 .social-icon:hover {
   fill: var(--primary-white-color);
-  background-color: var(--accent-color);
+}
+.networks-link {
+  margin-right: 0;
 }
 
 .social-networks {
   display: flex;
-  justify-content: center;
-  list-style: none;
+  justify-content: space-evenly;
+  padding-left: 31px;
+  padding-right: 31px; 
+  align-items: baseline;
 
   height: 44px;
   margin-bottom: 24px;
 }
-
-.social-link {
-  display: block;
-  width: 20px;
-  height: 20px;
-  color: brown;
+.fot-ul {
+  padding-right: 0;
+  padding-left: 0;
 }
+.faseb:hover {
+background-color: var(--accent-color);
 
+}
 .list .foto {
   box-sizing: border-box;
   border: 1px solid #eeeeee;
@@ -437,8 +456,8 @@ body {
 /* Соцсети */
 
 .social-link {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
 }
 /* Постояные клиенты */
 
@@ -510,34 +529,40 @@ footer {
   background-color: #2f303a;
 }
 .page-footer .address {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+}
+.logo-footer {
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 
 .address-paragraph {
   color: var(--primary-white-color);
-  margin-top: 10px;
   margin-bottom: 9px;
 
+  letter-spacing: 0.03em;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .address-mail {
   text-decoration: none;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.7;
 }
 .join {
   display: inline-block;
 }
 
 .join-paragraph {
-  margin-top: 56px;
   margin-bottom: 21px;
 
   font-weight: 400;
@@ -551,6 +576,21 @@ footer {
   margin-left: 20px;
 }
 
+.netwo:last-child {
+  margin: 0;
+}
+
+.netwo {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0;
+  margin-right: 10px;
+}
+
 .subscription-name {
   margin-top: 56px;
   margin-bottom: 0;
@@ -562,6 +602,22 @@ footer {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
+
+.buton-icon{
+color: blue;
+
+}
+.buton::after{
+      content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/sprayt.svg#kursor);
+    background-size: contain;
+    background-position: center;
+    margin-left: 10px;
+}
+}
+
 .developed {
   padding-top: 18px;
   padding-bottom: 21px;
@@ -581,6 +637,16 @@ footer {
 
 /* footer */
 /* footer */
+
+.faseb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: white;
+}
+.faseb-icon {
+  fill: var(--primary-white-color);
+}
+
 .footer {
   padding-top: 48px;
   justify-content: space-between;
@@ -608,9 +674,9 @@ footer {
   display: block;
 }
 
-.join {
+/* .join {
   margin-left: 69px;
-  margin-right: 93px;
+  margin-right: 93px; */
 }
 
 /* PORTFOLIO.HTML  */
