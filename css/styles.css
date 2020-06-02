@@ -291,7 +291,7 @@ img {
 /* Чем мы занимаемся */
 
 .container .list .img {
-  width: 380px;
+  width: calc((100% - 30px * 2) / 3);
 }
 
 .applications {
@@ -311,7 +311,7 @@ img {
 }
 .feature-list .item {
   text-align: center;
-  width: 278px;
+  width: calc((100% - 90px) / 3);
 }
 
 .feature-list .title {
@@ -327,7 +327,6 @@ img {
   padding-top: 27px;
   padding-bottom: 27px;
   border-radius: 0px 0px 4px 4px;
-  width: 380px;
 }
 .im {
   display: block;
@@ -421,16 +420,11 @@ img {
 }
 .list .foto {
   box-sizing: border-box;
-  border: 1px solid #eeeeee;
   background: url(team-img-2.jpg);
-  border-radius: 4px 4px 4px 4px;
-  width: 270px;
+  width: calc((100% - 30px * 2) / 3);
   background-color: #fff;
-
-  border-radius: 4px;
   border: 1px solid #afb1b8;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .section-foto {
   border-radius: 4px 4px 0px 0px;
@@ -483,7 +477,7 @@ img {
 
 .foto-link:hover > .logos {
   /* background-color: var(--primary-white-color); */
-  border: 1px solid #2196f3;
+  border: 2px solid #2196f3;
   box-sizing: border-box;
   border-radius: 4px;
 }
