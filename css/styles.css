@@ -167,6 +167,8 @@ img {
 .auth-nav {
   display: flex;
   margin-left: auto;
+  justify-content: space-between;
+  align-items: baseline;
 }
 .auth-nav .item + .item {
   margin-left: 30px;
@@ -763,7 +765,7 @@ footer {
 }
 
 .flex-element {
-  width: 370px;
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
 
   margin-bottom: 30px;
