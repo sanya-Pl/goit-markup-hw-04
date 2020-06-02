@@ -137,6 +137,7 @@ body {
 .list-nav .link:hover {
   color: var(--accent-color);
   display: block;
+  border-radius: 0px;
 }
 
 .list-nav {
@@ -402,7 +403,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding-left: 31px;
-  padding-right: 31px; 
+  padding-right: 31px;
   align-items: baseline;
 
   height: 44px;
@@ -413,8 +414,7 @@ body {
   padding-left: 0;
 }
 .faseb:hover {
-background-color: var(--accent-color);
-
+  background-color: var(--accent-color);
 }
 .list .foto {
   box-sizing: border-box;
@@ -603,19 +603,17 @@ footer {
   color: var(--primary-white-color);
 }
 
-.buton-icon{
-color: blue;
-
+.buton-icon {
+  color: blue;
 }
-.buton::after{
-      content: "";
-    width: 24px;
-    height: 24px;
-    background-image: url(../images/sprayt.svg#kursor);
-    background-size: contain;
-    background-position: center;
-    margin-left: 10px;
-}
+.buton::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/sprayt.svg#kursor);
+  background-size: contain;
+  background-position: center;
+  margin-left: 10px;
 }
 
 .developed {
@@ -624,7 +622,7 @@ color: blue;
 
   font-weight: 400;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -672,11 +670,6 @@ color: blue;
 }
 .address .list {
   display: block;
-}
-
-/* .join {
-  margin-left: 69px;
-  margin-right: 93px; */
 }
 
 /* PORTFOLIO.HTML  */
