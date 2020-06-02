@@ -362,10 +362,6 @@ img {
   text-align: center;
 }
 
-.social-link {
-  display: block;
-}
-
 /* .networks-tvit {
   margin-left: 34px;
 } */
@@ -389,6 +385,9 @@ img {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
+.networ:hover .social-icon {
+  fill: white;
+}
 
 .social-icon {
   margin: 0;
@@ -406,12 +405,9 @@ img {
 
 .social-networks {
   display: flex;
-  justify-content: space-evenly;
-  padding-left: 31px;
-  padding-right: 31px;
+  justify-content: center;
   align-items: baseline;
 
-  height: 44px;
   margin-bottom: 24px;
 }
 .fot-ul {
@@ -461,8 +457,9 @@ img {
 /* Соцсети */
 
 .social-link {
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
+  display: contents;
 }
 /* Постояные клиенты */
 
